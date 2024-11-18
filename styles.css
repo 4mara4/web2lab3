@@ -1,0 +1,32 @@
+:root {
+    --ball-color: blue;
+    --ball-radius: 10px;
+    
+    --bat-color: red;
+    --bat-width: 100px;
+    --bat-height: 20px;
+    
+    --brick-color: yellow;
+    --brick-padding: 10px;
+    --brick-height: 30px;
+    
+    --background-gradient: linear-gradient(black, #111);
+    
+    --message-font-size: 70px;
+    --game-over-color: red;
+    --win-color: green;
+    --score-color: white;
+  }
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+}
+  
+canvas {
+    background: linear-gradient(black, #111);
+    display: block;
+}
+  
+  
